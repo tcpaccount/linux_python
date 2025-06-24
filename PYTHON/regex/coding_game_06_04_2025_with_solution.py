@@ -38,5 +38,21 @@ Output
 ----------------------
 '''
 
+# My solution
+
+import re
+
 
 sentence = input()
+# traight forward solution
+#garbage = "' ? ! / , . : ) %".split()
+#counter  = 0
+#
+#for i in sentence:
+#    if i in garbage:
+#        counter += 1
+#print(counter)
+
+# short regex solution
+patter = r"['?!/,.:)%]"
+print(len(re.findall(patter,sentence)))
