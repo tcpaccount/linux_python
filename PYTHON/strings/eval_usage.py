@@ -43,3 +43,5 @@ Expected output
 
 -
 '''
+
+expression = input()
