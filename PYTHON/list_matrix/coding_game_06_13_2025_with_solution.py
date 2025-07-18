@@ -1,4 +1,4 @@
-'''
+﻿'''
 You are given the letters of a sentence that are scattered in a square grid at different vertical heights, but are placed in the correct left-to-right order by column.
 Your task is to "catch" the letters and print the sentence on a single line by reading column-by-column.
 If there isn't any letter in a column, consider it as a white space ' '.
@@ -140,8 +140,6 @@ A robot danced on the rooftop.
 import sys
 import math
 
-# Auto-generated code below aims at helping you parse
-# the standard input according to the problem statement.
 
 h = int(input())
 result = [" " for _ in range(h)]

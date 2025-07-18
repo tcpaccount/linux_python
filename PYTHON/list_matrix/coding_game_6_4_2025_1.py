@@ -59,7 +59,7 @@ TIP: using list comprehention is one of the one liner solution for this one
 My solution
 
 s = input()
-print(sum([1 if x.isupper() else 0 for x in s]) ** sum([1 if x.islower() else 0 for x in s]))
+
 
 
 
