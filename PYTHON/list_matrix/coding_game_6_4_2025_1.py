@@ -56,8 +56,6 @@ Ouput
 TIP: using list comprehention is one of the one liner solution for this one
 '''
 
-My solution
-
 s = input()
 
 
