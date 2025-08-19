@@ -21,4 +21,5 @@ def solution(paths):
 if __name__ == "__main__":
     sample_paths1 = [["London", "Paris"], ["Paris", "Lima"], ["Lima", "San Paulo"]]
     sample_paths2 = [["Buffalo", "Baltimore"], ["Toronto", "Buffalo"], ["Baltimore", "Washington"]]
+    sample_paths3 = [["Berlin", "Sofia"], ["Milan", "Berlin"], ["Sofia", "Kyiv"]]
     print(solution(sample_paths1))
